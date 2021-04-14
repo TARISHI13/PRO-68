@@ -1,0 +1,55 @@
+
+.header{
+    background-color: whitesmoke;
+    display:flex;
+    justify-content:space-between
+}
+
+h1{
+   color:tomato;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.header *{
+    border:solid
+}
+.grid{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between
+}
+.footer{
+    display:flex;
+    justify-content:flex-end
+}
+p,h2{
+    
+}
+body{
+    background-color:maroon;
+}
+a:link{
+    color:blue
+}
+a:visited{
+    color:yellow
+}
+.menu{
+    margin-right: 30px;
+}
+.item{
+    position:relative
+}
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+.item:hover p{opacity:1}
+
+.item:hover img{
+    opacity:0.33;
+}
